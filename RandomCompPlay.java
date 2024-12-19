@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class minimaxAlg{
+public class RandomCompPlay{
     private static void print(int[][] board, char choice){
         System.out.println(" +---+---+---+");
         for(int i=0;i<3;i++){
