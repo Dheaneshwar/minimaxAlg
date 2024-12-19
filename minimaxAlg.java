@@ -12,9 +12,10 @@ public class minimaxAlg{
                     else ch='X';
                 }
                 else ch='_';
-                System.out.print(ch+" ");
+                System.out.print(ch+" | ");
             }
             System.out.println();
+            System.out.println("-- --- ---");
         }
         System.out.println();
     }
