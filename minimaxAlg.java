@@ -3,7 +3,9 @@ import java.util.*;
 
 public class minimaxAlg{
     private static void print(int[][] board, char choice){
+        System.out.println(" +---+---+---+");
         for(int i=0;i<3;i++){
+            System.out.print(" | ");
             for(int j=0;j<3;j++){
                 char ch;
                 if(board[i][j]==1)ch=choice;
@@ -11,11 +13,11 @@ public class minimaxAlg{
                     if(choice=='X')ch='O';
                     else ch='X';
                 }
-                else ch='_';
+                else ch=' ';
                 System.out.print(ch+" | ");
             }
             System.out.println();
-            System.out.println("-- --- ---");
+            System.out.println(" +---+---+---+");
         }
         System.out.println();
     }
